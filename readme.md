@@ -16,6 +16,23 @@ Run Hashicorp consul:
 `docker pull docker.io/consul:1.15.4`
 `docker run -d --name consul:1.15.4 -p 8500:8500 consul`
 
+Open [HashiCorp Consul Dashboard](http://localhost:8500/)
+
 Run Zipkin
 
 `docker run -d -p 9411:9411 openzipkin/zipkin`
+
+Open [Zipkin Dashboard](http://localhost:9411/zipkin/)
+
+App Links:
+[http://localhost:62180/swagger/employees-management-1.0.yml](http://localhost:62180/swagger/employees-management-1.0.yml)
+
+[http://localhost:62142/swagger/organizations-management-1.0.yml](http://localhost:62142/swagger/organizations-management-1.0.yml)
+
+[http://localhost:62161/swagger/departments-management-1.0.yml](http://localhost:62161/swagger/departments-management-1.0.yml)
+
+[http://localhost:62180/employees](http://localhost:62180/employees)
+
+[http://localhost:62180/employees/department/9](http://localhost:62180/employees/department/9)
+
+[http://localhost:62142/organizations](http://localhost:62142/organizations)
