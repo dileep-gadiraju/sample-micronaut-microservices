@@ -10,3 +10,12 @@
 1. Detailed description can be found here: [Quick Guide to Microservices with Micronaut Framework](https://piotrminkowski.com/2019/01/25/quick-guide-to-microservices-with-micronaut-framework/)
 
 2. Detailed description can be found here: [Microservices with Micronaut, KrakenD and Consul](https://piotrminkowski.com/2021/02/23/microservices-with-micronaut-krakend-and-consul/)
+
+Run Hashicorp consul:
+
+`docker pull docker.io/consul:1.15.4`
+`docker run -d --name consul:1.15.4 -p 8500:8500 consul`
+
+Run Zipkin
+
+`docker run -d -p 9411:9411 openzipkin/zipkin`
