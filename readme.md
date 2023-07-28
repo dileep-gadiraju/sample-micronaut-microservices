@@ -15,7 +15,7 @@ Run Hashicorp consul:
 
 > `docker pull docker.io/consul:1.15.4`
 
-> `docker run -d --name consul:1.15.4 -p 8500:8500 consul`
+> `docker run -d --name consul -p 8500:8500 consul:1.15.4 `
 
 Open [HashiCorp Consul Dashboard](http://localhost:8500/)
 
